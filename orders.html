@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html lang="he">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>הזמנות</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-        <header>
-            <nav>
-                <table>
-                    <thead>
-                        <th colspan="100%">לניווט באתר</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="home.html">דף הבית</a></td>
-                            <td><a href="movise.html">סרטים</a></td>
-                            <td><a href="orders.html">הזמנות</a></td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <td colspan="100%">והכי חשוב שתהנו</td>
-                    </tfoot>
-        
-                </table>
-            </nav>
-        
-        </header>
-        <main>
-            <h1></h1>
-            <h2></h2>
 
-        </main>
-        <footer>
-            <aside>
-        
-                כל הזכויות שמורות לקולנוע &copy;
-            </aside>
-        </footer>
+<body>
+    <header>
+        <nav>
+            <table>
+                <thead>
+                    <!-- <th colspan="100%">קולנוע מדע בדיוני ופנטזיה אינטראקטיבי</th> -->
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="home.html">דף הבית</a></td>
+                        <td><a href="movise.html">סרטים</a></td>
+                        <td><a href="orders.html">הזמנות</a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="100%">פתוח בין השעות 15:00 עד 23:00</td>
+                </tfoot>
+            </table>
+        </nav>
+
+    </header>
+    <main>
+        <article>
+            <h1>להזמנת סרט</h1>
+            <h2>בחר סרט להזמנה </h2>
+
+        </article>
+
+        <form>
+            <label for="movie">בחר סרט: </label>
+            <select id="movie" name="movie" required>
+                <option value="" selected disabled>בחר</option>
+                <option value="programmer"> פרונקציה:</option>
+                <option value="designer"> דיגטה:</option>
+                <option value="other">יעקב:</option>
+                <option value="other"> בעכמה:</option>
+                <option value="other"> להנכחת:</option>
+            </select>
+
+
+
+            <fieldset>
+                <legend>פרטים אישיים</legend>
+                <label for="name">שם פרטי</label>
+                <input type="text" id="name" name="name" placeholder="שם פרטי" required><br>
+                <label for="last">שם משפחה</label>
+
+                <input type="text" id="last" name="last" placeholder="שם משפחה" required>
+                <br>
+                <button type="submit" >הזמן סרט</button>
+
+        </form>
+
+        <aside>
+            <address> רחוב הסרוטים 1, תל אביב, ישראל </address>
+        </aside>
+
+
+    </main>
+    <footer>
+        <aside>
+
+            כל הזכויות שמורות לקולנוע &copy;
+        </aside>
+    </footer>
 </body>
+
 </html>
