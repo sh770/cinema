@@ -11,21 +11,21 @@
 <body>
     <header>
         <nav>
-            <table>
-                <thead>
-                    <!-- <th colspan="100%">קולנוע מדע בדיוני ופנטזיה אינטראקטיבי</th> -->
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="home.html">דף הבית</a></td>
-                        <td><a href="movise.html">סרטים</a></td>
-                        <td><a href="orders.html">הזמנות</a></td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <td colspan="100%">פתוח בין השעות 15:00 עד 23:00</td>
-                </tfoot>
-            </table>
+            <ol>
+                <li><a href="orders.html">הזמנות</a></li>
+                <li><a href="movies.html">סרטים</a></li>
+                <li><a href="home.html">דף הבית</a></li>
+            </ol>
+            <article>
+                <h1>קולנוע מדע בדיוני ופנטזיה אינטראקטיבי</h1>
+                <h2>כאן תוכלו לצפות בכל הסרטים החדשים</h2>
+            </article>
+            <article>
+                <figure>
+                    <img src="horse.webp" alt="סרט חדש">
+                    <figcaption>פתוח בין השעות 15:00 עד 23:00</figcaption>
+                </figure>
+            </article>
         </nav>
 
     </header>
@@ -57,7 +57,8 @@
 
                 <input type="text" id="last" name="last" placeholder="שם משפחה" required>
                 <br>
-                <button type="submit" >הזמן סרט</button>
+                <button type="submit">הזמן סרט</button>
+            </fieldset>
 
         </form>
 
@@ -68,10 +69,7 @@
 
     </main>
     <footer>
-        <aside>
-
-            כל הזכויות שמורות לקולנוע &copy;
-        </aside>
+        <p>כל הזכויות שמורות לקולנוע &copy;</p>
     </footer>
 </body>
 

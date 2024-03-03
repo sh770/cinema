@@ -2,20 +2,23 @@ body {
     direction: auto;
     color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
     text-align: center;
 }
 
-td,
-th {
-    border: solid 1px chocolate;
+
+
+nav ol li {
+    direction: rtl;
+    display: inline;
+    margin: auto;
     padding: 5px;
+    border-radius: 25px;
+    border: double 1px red;
+    background-color: burlywood;
 }
 
-table {
-    direction: rtl;
-    margin: auto;
-}
+
 
 label {
     direction: rtl;
@@ -26,7 +29,6 @@ label {
 
 
 figure {
-    /* border: solid 0.5px red; */
     margin: 10px;
     padding: 10px;
     display: inline-block;
@@ -53,4 +55,11 @@ form {
     text-align: center;
     margin: 10px;
 
+}
+
+ol li{
+    direction: rtl;
+}
+ul li{
+    direction: rtl;
 }
