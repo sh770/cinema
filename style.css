@@ -57,9 +57,10 @@ form {
 
 }
 
-ol li{
+ol li {
     direction: rtl;
 }
-ul li{
+
+ul li {
     direction: rtl;
 }
