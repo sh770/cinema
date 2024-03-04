@@ -1,66 +1,60 @@
 body {
-    direction: auto;
-    color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 20px; */
-    text-align: center;
+  direction: auto;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 20px; */
+  text-align: center;
 }
-
-
 
 nav ol li {
-    direction: rtl;
-    display: inline;
-    margin: auto;
-    padding: 5px;
-    border-radius: 25px;
-    border: double 1px red;
-    background-color: burlywood;
+  direction: rtl;
+  display: inline;
+  margin: auto;
+  padding: 5px;
+  border-radius: 25px;
+  border: double 1px red;
+  background-color: burlywood;
 }
-
-
 
 label {
-    direction: rtl;
-    font-size: 25px;
-    text-align: center;
-    margin: 10px;
+  direction: rtl;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
 }
 
-
 figure {
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
-    width: 50%;
-    margin: 10px auto;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
 }
 
 img {
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
-    border: double 2px red;
-    margin: 10px;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  border: double 2px red;
+  margin: 10px;
 }
 
 form {
-    direction: rtl;
-    font-size: 25px;
-    text-align: center;
-    margin: 10px;
-
+  direction: rtl;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
 }
 
 ol li {
-    direction: rtl;
+  direction: rtl;
 }
 
 ul li {
-    direction: rtl;
+  direction: rtl;
 }
